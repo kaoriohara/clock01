@@ -1,0 +1,34 @@
+@import url("http://fonts.googleapis.com/css?family=Cabin Sketch");
+
+body
+{
+	color: orange;
+	background-color: black;
+	transform: rotateY( 180deg );
+}
+
+div#clock_frame
+{
+	width: 100%;
+}
+
+span
+{
+	display: block;
+	text-align: center;
+	/*width: 85%;*/
+	font-family: 'Cabin Sketch';
+	font-weight: normal;
+}
+
+span#clock_date
+{
+	text-align: right;
+	font-size: 0.5em;
+	padding-right: 0.5em;
+}
+
+span#clock_time
+{
+	font-size: 2em;
+}
