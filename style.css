@@ -12,6 +12,10 @@
   font-family: "D7MBI";
   src: url("fonts/DSEG7Modern-BoldItalic.woff") format('woff');
 }
+@font-face {
+  font-family: "DISPLAY";
+  src: url("fonts/DISPLAY FREE TFB.woff") format('woff');
+}
 
 body
 {
@@ -30,7 +34,6 @@ span
 	display: block;
 	text-align: center;
 	font-family: "D14MI";
-
 }
 
 span#clock_date
@@ -44,7 +47,11 @@ span#clock_date
 span#clock_time
 {
 	padding-top: .8em;
+	font-family: "DISPLAY";
 	font-size: 2em;
 	color: orange;
-		text-shadow: 0 0 30px orange,0 0 40px orange;
+	text-shadow: 0 0 30px orange,0 0 40px orange;
+	/*background-image: url("clock.png");*/
+	/*background-size:cover;*/
+	/*background-repeat: no-repeat;*/
 }
