@@ -43,6 +43,8 @@ span#clock_date
 
 span#clock_time
 {
-	padding-top: .4em;
+	padding-top: .8em;
 	font-size: 2em;
+	color: orange;
+		text-shadow: 0 0 30px orange,0 0 40px orange;
 }
