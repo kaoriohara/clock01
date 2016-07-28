@@ -47,7 +47,7 @@ span#clock_date
 span#clock_time
 {
 	padding-top: .8em;
-	font-family: "DISPLAY";
+	/*font-family: "DISPLAY";*/
 	font-size: 2em;
 	color: orange;
 	text-shadow: 0 0 30px orange,0 0 40px orange;
